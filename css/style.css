@@ -35,3 +35,77 @@ article {
 p {
     color:white;
 }
+.transition1 {
+    width: 50px;
+    background-color: black;
+}
+@keyframes .transiton1{
+    0% {
+    width: 100px;
+    background-color: red;
+    }
+    50% {
+    width: 400px;
+    background-color: green;
+    }
+    100% {
+    width: 200px;
+    background-color: blue;
+    }
+}
+.transition2 {
+    width: 50px;
+    background-color: grey;
+}
+@keyframes .transiton2{
+    0% {
+    width: 100px;
+    background-color: red;
+    }
+    50% {
+    width: 400px;
+    background-color: green;
+    }
+    100% {
+    width: 200px;
+    background-color: blue;
+    }
+}
+.transition3 {
+    width: 50px;
+    background-color: orange;
+}
+@keyframes .transiton1{
+    0% {
+    width: 100px;
+    background-color: red;
+    }
+    50% {
+    width: 400px;
+    background-color: green;
+    }
+    100% {
+    width: 200px;
+    background-color: blue;
+    }
+.transiton4 {
+    width: 300px;
+    background-color: blue;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.transiton5 {
+    width: 300px;
+    background-color: blue;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.transiton6 {
+    width: 300px;
+    background-color: blue;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
