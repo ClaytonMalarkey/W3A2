@@ -1,3 +1,7 @@
+body {
+    background-color: blue;
+}
+
 #trashy-panda {
     color: grey;
     background-color: darkgray;
@@ -12,7 +16,7 @@
 }
 .inline-black-white {
     background-color: black;
-    display: inline=block;
+    display: inline-block;
 }
 div p {
     color: white;
@@ -30,16 +34,17 @@ h1 {
 }
 article {
     display: inline-block;
-    float:left:
+    float: left;
 }
 p {
     color:white;
 }
-.transition1 {
-    width: 50px;
-    background-color: black;
+.transiton1:hover {
+    animation-name: AnimationOne;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
 }
-@keyframes .transiton1{
+@keyframes AnimatinoOne {
     0% {
     width: 100px;
     background-color: red;
@@ -53,11 +58,12 @@ p {
     background-color: blue;
     }
 }
-.transition2 {
-    width: 50px;
-    background-color: grey;
+#transiton2:hover {
+    animation-name: AnimationTwo;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
 }
-@keyframes .transiton2{
+@keyframes AnimationTwo {
     0% {
     width: 100px;
     background-color: red;
@@ -71,11 +77,12 @@ p {
     background-color: blue;
     }
 }
-.transition3 {
-    width: 50px;
-    background-color: orange;
+#Transition3:hover {
+    animation-name: AnimationThree;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
 }
-@keyframes .transiton1{
+@keyframes AnimationThree {
     0% {
     width: 100px;
     background-color: red;
@@ -88,6 +95,7 @@ p {
     width: 200px;
     background-color: blue;
     }
+}
 .transiton4 {
     width: 300px;
     background-color: blue;
